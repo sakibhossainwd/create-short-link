@@ -10,11 +10,9 @@ const displayShortLink = links => {
     const inputField = document.getElementById('input-field');
     const inputText = inputField.value;
     if(inputText === ''){
-        alert('enter your link')
+        alert('enter your link');
     }
-    else{
-        
-    }
+
     // console.log(inputText);
     loadLink(inputText)
     const modalContainer = document.getElementById('modal-content');
